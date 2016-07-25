@@ -1,0 +1,37 @@
+{
+  "name": "yiister/yii2-advanced-grid",
+  "description": "Advanced GridView extension for Yii framework 2",
+  "keywords": [
+    "yii2",
+    "utils",
+    "extension",
+    "grid",
+    "grid-view",
+    "column"
+  ],
+  "homepage": "https://github.com/yiister/yii2-advanced-grid",
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Pavel Fedotov",
+      "email": "fps.06@mail.ru",
+      "homepage": "https://github.com/fps01",
+      "role": "Creator"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/yiister/yii2-advanced-grid/issues",
+    "source": "https://github.com/yiister/yii2-advanced-grid"
+  },
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "~2.0.0",
+    "yiisoft/yii2-bootstrap": "~2.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "yiister\\grid\\": "src/"
+    }
+  }
+}
