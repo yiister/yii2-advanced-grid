@@ -1,6 +1,7 @@
-# Yii2 Advanced Grid
+Yii2 Advanced Grid
+==================
 
-It is an extension for Yii framework 2.
+The extension provides different columns for `yii\grid\GridView` widget.
 
 Installation
 ------------
@@ -23,3 +24,4 @@ to the `require` section of your composer.json.
 
 Using
 -----
+
