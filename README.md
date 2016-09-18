@@ -3,6 +3,8 @@ Yii2 Advanced Grid
 
 The extension provides different columns for `yii\grid\GridView` widget.
 
+You can see examples at the [demo page](http://yiister.ru/projects/advanced-grid).
+
 Installation
 ------------
 
@@ -21,7 +23,3 @@ or add
 ```
 
 to the `require` section of your composer.json.
-
-Using
------
-
