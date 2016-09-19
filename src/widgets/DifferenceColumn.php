@@ -68,6 +68,9 @@ class DifferenceColumn extends DataColumn
      */
     protected function renderDifference($value)
     {
+        if ($value === false) {
+            '&#9888;';
+        }
         return ($value < 0 ? '&downarrow;' : '&uparrow;') . ' ' . (int) $value;
     }
 
@@ -81,6 +84,9 @@ class DifferenceColumn extends DataColumn
     {
         $value = $model->{$this->attribute};
         $oldValue = $value - $difference;
+        if ($oldValue <= 0) {
+            return false;
+        }
         return $value * 100 / $oldValue - 100;
     }
 
